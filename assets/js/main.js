@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Add click event listener to the "Show More" button
 	document.getElementById("toggleBtn").addEventListener("click", function () {
 		// Toggle the visibility of projects
-		toggleProjects(3, 7);
+		toggleProjects(3, 8);
 		// Toggle the button text
 		isShowBtw = !isShowBtw;  
 		toggleButtonText(isShowBtw);
